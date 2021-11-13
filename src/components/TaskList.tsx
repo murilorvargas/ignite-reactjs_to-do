@@ -31,6 +31,9 @@ export function TaskList() {
   }
 
   function handleRemoveTask(id: number) {
+    setTasks(oldState => oldState.filter(
+      task => task.id !== id
+    ))
   }
 
   return (
