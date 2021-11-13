@@ -28,6 +28,15 @@ export function TaskList() {
   }
 
   function handleToggleTaskCompletion(id: number) {
+    const updatedTasks = tasks.map(task => ({ ...task }))
+    const task = updatedTasks.find((task) => task.id === id)
+
+    if (!task) {
+      return
+    }else{
+      task.isComplete = !task.isComplete
+      setTasks(updatedTasks)
+    }
   }
 
   function handleRemoveTask(id: number) {
