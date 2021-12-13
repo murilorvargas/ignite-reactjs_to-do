@@ -50,7 +50,7 @@ A simple to-do list made with ReactJS and Typescript in order to practice handli
 # Clone this project
 $ git clone https://github.com/murilorvargas/reactjs_to-do
 # Access
-$ cd to-do_react
+$ cd reactjs_to-do
 # Install dependencies
 $ yarn
 # Run the project
