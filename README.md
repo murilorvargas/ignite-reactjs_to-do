@@ -48,7 +48,7 @@ A simple to-do list made with ReactJS and Typescript in order to practice handli
 
 ```bash
 # Clone this project
-$ git clone https://github.com/mb4ndeira/to-do_react
+$ git clone https://github.com/murilorvargas/reactjs_to-do
 # Access
 $ cd to-do_react
 # Install dependencies
